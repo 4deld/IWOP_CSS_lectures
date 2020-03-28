@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#topbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+    position: fixed;
+    width: 100vw;
+    background-color: ivory;
+    align-items: center;
+    height: 9vh;
+    top: 0;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 7%;
+    font-size: 1.5em;
+}
+li{
+    margin: 10px;
+}
+section{
+    width: 40vw;
+    height: 40vh;
+    font-size: 2em;
+    background-color: ivory;
+    margin: 1%; 
+}
+#arti{
+    flex-wrap: wrap;    
+    display: flex;
+    margin-left: 8%;
+    margin-top: 15vh;
+}
+footer{
+    font-size: 1.3em;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 10% 3% 0 3%;
+}
