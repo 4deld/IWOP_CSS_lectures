@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+#topbar {
+	display: flex;   
+    /*  1  */
+	/* 2 */
+	/* 3 */
+	padding-left: 3%;
+	width: 100vw;
+	background-color: ivory;
+	height: 9vh;
+	top: 0;
+}
+
+ul {
+	/* 4 */
+	display: flex;   
+	margin-right: 7%;
+	font-size: 1.5em;
+}
+
+li {
+	margin: 10px;
+}
+
+section {
+	width: 40vw;
+	height: 40vh;
+	font-size: 2em;
+	background-color: ivory;
+	margin: 1%;
+}
+
+#arti {
+	/* 5 */
+	display: flex;  
+	margin-left: 8%;
+	margin-top: 15vh;
+}
+
+footer {
+	font-size: 1.3em;
+    /* 6 */
+	/* 7 */
+	display: flex; 
+	margin: 10% 3% 0 3%;
+}
