@@ -6,7 +6,7 @@ body {
 
 #topbar {
 	display: flex;   
-    justify-content: space-between;  /*  1 */
+    	justify-content: space-between;  /*  1 */
 	position: fixed;  /*  2 */
 	align-items: center; /*   3   */
 	padding-left: 3%;
@@ -44,7 +44,7 @@ section {
 
 footer {
 	font-size: 1.3em;
-    justify-content: space-between;   /*  6 */
+   	justify-content: space-between;   /*  6 */
 	align-items: center; /*   7 */
 	display: flex; 
 	margin: 10% 3% 0 3%;
