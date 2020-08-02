@@ -6,9 +6,9 @@ body {
 
 #topbar {
 	display: flex;   
-    /*  1  */
-	/* 2 */
-	/* 3 */
+    justify-content: space-between;  /*  1 */
+	position: fixed;  /*  2 */
+	align-items: center; /*   3   */
 	padding-left: 3%;
 	width: 100vw;
 	background-color: ivory;
@@ -17,7 +17,7 @@ body {
 }
 
 ul {
-	/* 4 */
+	list-style-type: none; /*   4 */
 	display: flex;   
 	margin-right: 7%;
 	font-size: 1.5em;
@@ -36,7 +36,7 @@ section {
 }
 
 #arti {
-	/* 5 */
+	flex-wrap: wrap; /*   5 */
 	display: flex;  
 	margin-left: 8%;
 	margin-top: 15vh;
@@ -44,8 +44,9 @@ section {
 
 footer {
 	font-size: 1.3em;
-    /* 6 */
-	/* 7 */
+    justify-content: space-between;   /*  6 */
+	align-items: center; /*   7 */
 	display: flex; 
 	margin: 10% 3% 0 3%;
 }
+
